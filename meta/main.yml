@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  role_name: bacula_console
+  author: Sedov Andrey
+  description: Installation and configuration Bacula Console
+  issue_tracker_url: http://example.com/issue/tracker
+  license: BSD
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - bacula
+
+dependencies: []

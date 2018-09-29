@@ -1,0 +1,12 @@
+---
+- name: Install Bacula Console
+  yum:
+    name: "bacula-console-{{ bacula_console_version }}"
+
+- name: Configure Bacula Console
+  template:
+    dest: /etc/bacula/bconsole.conf
+    src: bconsole.conf.j2
+    mode: 0640
+    owner: root
+    group: root
