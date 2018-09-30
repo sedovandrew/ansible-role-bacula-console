@@ -22,7 +22,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - role: bacula_console
+         - role: sedovandrew.bacula_console
            become: true
            bacula_director_console_password: "bacula console password"
 
