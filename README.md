@@ -1,6 +1,8 @@
 Role bacula_console
 ===================
 
+[![Build Status](https://travis-ci.org/sedovandrew/ansible-role-bacula-console.svg?branch=master)](https://travis-ci.org/sedovandrew/ansible-role-bacula-console)
+
 Installation and configuration Bacula Console
 
 Role Variables
